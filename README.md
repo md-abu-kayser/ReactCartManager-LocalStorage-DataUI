@@ -2,32 +2,36 @@
 
 A small, well-structured React demo app that demonstrates component composition, simple client-side data fetching, and localStorage-based cart utilities. It was bootstrapped with Create React App and is intended as a polished portfolio piece.
 
-Highlights
+## Highlights
 
 - Clean component layout and CSS modules for scoped styling.
 - Simple utilities for arithmetic and localStorage-based cart management.
 - Data-driven UI using a local JSON file ([public/data.json](public/data.json)).
 - Ready-to-run with standard CRA scripts.
 
-Quick start
+## Quick start
 
 1. Install
    ```sh
    npm install
    ```
 2. Run locally
+
+```sh
    npm start
 
 ```
+
 3. Run tests
+
+```sh
 npm test
 ```
 
 4. Build for production
+
+```sh
    npm run build
-
-```
-
 ```
 
 ### What to look at (key files & symbols)
@@ -75,19 +79,19 @@ Design notes (what to mention to a client)
 7. Example usage
 
 - Import utilities:
+
+```
   import { add, multiply } from './components/utilites/calculetor';
 
 ```
 
-```
-
 - Using cart helper in a component:
+
+```
   import { addToDb } from './components/utilites/fakedb';
-  addToDb(productId);
-
 ```
 
-```
+addToDb(productId);
 
 #### Contributing
 
@@ -97,8 +101,4 @@ Design notes (what to mention to a client)
 ##### License
 
 MIT — modify as needed.
-If you want the README tailored further (badges, screenshots, deployment instructions), indicate which CI/CD or hosting (Vercel, Netlify, GitHub Pages) to target and a short demo GIF or screenshot to include. ``````
-
-```
-
-```
+If you want the README tailored further (badges, screenshots, deployment instructions), indicate which CI/CD or hosting (Vercel, Netlify, GitHub Pages) to target and a short demo GIF or screenshot to include.
